@@ -11,8 +11,8 @@ def is_comment(submission):
 		for comment in flat_comments:
 			if comment.author.name <> submission.author.name:
 				answered = 1
-			if answered <> 1:
-				return False
+	elif answered <> 1:
+		return False
 
 			
 f = open('posts.txt', 'r')
