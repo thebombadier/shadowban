@@ -20,7 +20,7 @@ for line in f:
 	already_done.append(line)
 f.close()
 r = praw.Reddit('Shadow ban scraper'
-		'http://www.geek-army.org')
+		'https://www.github.com/thebombadier/shadowban')
 
 r.login('shadowbanbot','LYceum98')
 print 'Logged in'
