@@ -22,7 +22,7 @@ f.close()
 r = praw.Reddit('Shadow ban scraper'
 		'https://www.github.com/thebombadier/shadowban')
 
-r.login('shadowbanbot','LYceum98')
+r.login('username','password')
 print 'Logged in'
 
 
