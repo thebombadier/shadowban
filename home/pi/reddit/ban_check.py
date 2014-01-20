@@ -1,8 +1,12 @@
-def start(obj,name,pass,url,title):
-  obj.praw.Reddit('url'
-                  'title'
-                  )
-  obj.login(name,pass)
+praw.r.Reddit = ('Delete negative comments'
+                 'url_goes_here'
+                 )
+      
+def login(name,password):
+  try:
+    r.login(name,password)
+  except:
+    return "Couldn't Log in"
   
-def get_comment:
-  
+for comment in r.Redditor(user_name='godwin_finder').get_comments():
+   
